@@ -1,0 +1,162 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    }
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "เครื่องมือ กดตกลง อัตโนมัติ แอพ",
+      "role": "user",
+      "tokenCount": 13
+    }, {
+      "text": "**Discovering Auto-Clickers**\n\nI\u0027m currently searching for suitable auto-clicker applications on both Android and iOS platforms. My query terms include variations like \"auto clicker Android,\" \"automate screen taps iOS,\" and similar phrases to identify promising software. I\u0027m focusing on user reviews and features to find the most effective solutions.\n\n\n**Expanding Search Scope**\n\nI\u0027ve broadened my search parameters to include desktop software and browser extensions. I\u0027m now exploring \"auto clicker Windows,\" \"auto clicker macOS,\" \"automate mouse clicks,\" and browser-specific add-ons like \"auto clicker Chrome extension.\" The goal is to create a complete guide for automating \"OK\" button presses across multiple platforms.\n\n\n**Investigating Auto-Clickers**\n\nI\u0027ve successfully identified several \"auto clicker\" applications for Android and iOS, listing their names and key features. My research now expands to evaluating user reviews and comparing functionalities across platforms. The goal is to provide a comprehensive list with pros and cons.\n\n\n**Expanding Platform Scope**\n\nI\u0027ve completed the initial mobile app search. It\u0027s time to broaden the search to include desktop software and browser extensions. Focusing on Windows, macOS, and popular browsers will improve the response. This expansion will make the information more comprehensive, covering all major platforms, thus offering a more complete solution to the user\u0027s request.\n\n\n**Exploring Auto Clicker Apps**\n\nI\u0027ve assembled a comprehensive list of auto-clicker applications, focusing on Android, iOS, Windows, macOS, and browser extensions for Chrome and Firefox.  I have Android app names like \"Auto Clicker,\" and I\u0027m now evaluating their features and ease of use. Next steps involve analyzing download numbers and user reviews.\n\n\n**Consolidating App Findings**\n\nI\u0027ve expanded my list of auto-clicker applications, adding \"Auto Click er - Automatic tap\" and \"Click Assistant\" for Android, \"Auto Clicker\" for iOS, \"AutoClicker\", \"myMouse\", and \"Auto Mouse Clicker\" for Windows, and \"Mac Auto Clicker\" and \"GS Auto Clicker\" for macOS. I also confirmed several browser extensions for both Chrome and Firefox. It appears I have enough data to address the user\u0027s request for automatic \"OK\" press apps, so I\u0027m moving on to structuring the response.\n\n\n",
+      "role": "model",
+      "tokenCount": 539,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "thoughtSignatures": ["", "", "", "", "", ""],
+      "parts": [{
+        "text": "**Discovering Auto-Clickers**\n\nI\u0027m currently searching for suitable auto-clicker applications on both Android and iOS platforms. My query terms include variations like \"auto clicker Android,\" \"automate screen taps iOS,\" and similar phrases to identify promising software. I\u0027m focusing on user reviews and features to find the most effective solutions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Expanding Search Scope**\n\nI\u0027ve broadened my search parameters to include desktop software and browser extensions. I\u0027m now exploring \"auto clicker Windows,\" \"auto clicker macOS,\" \"automate mouse clicks,\" and browser-specific add-ons like \"auto clicker Chrome extension.\" The goal is to create a complete guide for automating \"OK\" button presses across multiple platforms.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Investigating Auto-Clickers**\n\nI\u0027ve successfully identified several \"auto clicker\" applications for Android and iOS, listing their names and key features. My research now expands to evaluating user reviews and comparing functionalities across platforms. The goal is to provide a comprehensive list with pros and cons.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Expanding Platform Scope**\n\nI\u0027ve completed the initial mobile app search. It\u0027s time to broaden the search to include desktop software and browser extensions. Focusing on Windows, macOS, and popular browsers will improve the response. This expansion will make the information more comprehensive, covering all major platforms, thus offering a more complete solution to the user\u0027s request.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Exploring Auto Clicker Apps**\n\nI\u0027ve assembled a comprehensive list of auto-clicker applications, focusing on Android, iOS, Windows, macOS, and browser extensions for Chrome and Firefox.  I have Android app names like \"Auto Clicker,\" and I\u0027m now evaluating their features and ease of use. Next steps involve analyzing download numbers and user reviews.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Consolidating App Findings**\n\nI\u0027ve expanded my list of auto-clicker applications, adding \"Auto Click er - Automatic tap\" and \"Click Assistant\" for Android, \"Auto Clicker\" for iOS, \"AutoClicker\", \"myMouse\", and \"Auto Mouse Clicker\" for Windows, and \"Mac Auto Clicker\" and \"GS Auto Clicker\" for macOS. I also confirmed several browser extensions for both Chrome and Firefox. It appears I have enough data to address the user\u0027s request for automatic \"OK\" press apps, so I\u0027m moving on to structuring the response.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "### พบกับเครื่องมือและแอปพลิเคชันสำหรับ \"กดตกลง\" อัตโนมัติ: ตัวช่วยสำหรับทุกแพลตฟอร์ม\n\nในยุคดิจิทัลที่หลายกิจกรรมบนหน้าจอสมาร์ทโฟนและคอมพิวเตอร์กลายเป็นเรื่องซ้ำซากจำเจ เครื่องมือและแอปพลิเคชันที่ช่วย \"กด\" หรือ \"คลิก\" โดยอัตโนมัติได้เข้ามามีบทบาทสำคัญในการอำนวยความสะดวกและลดภาระของผู้ใช้งาน ไม่ว่าจะเป็นการเล่นเกม การทำงาน หรือการใช้งานทั่วไป เครื่องมือเหล่านี้สามารถตั้งค่าให้ทำงานได้หลากหลายรูปแบบตามความต้องการของผู้ใช้\n\n#### สำหรับสมาร์ทโฟน (Android และ iOS)\n\n**แอนดรอยด์ (Android)**\n\nสำหรับผู้ใช้แอนดรอยด์ มีแอปพลิเคชันมากมายที่ช่วยในการกดหน้าจอซ้ำๆ โดยอัตโนมัติ โดยแอปที่ได้รับความนิยมส่วนใหญ่ไม่จำเป็นต้องทำการรูท (Root) เครื่องก่อนการติดตั้ง\n\n*   **Auto Clicker - Automatic tap:** เป็นแอปที่ใช้งานง่าย มีหน้าจอควบคุมแบบลอยสำหรับสั่งเริ่มและหยุดการทำงาน สามารถตั้งค่าการคลิกหลายจุดและการปัดหน้าจอได้ แอปนี้รองรับระบบปฏิบัติการ Android 7.0 ขึ้นไป\n*   **Click Assistant:** แอปนี้มีความสามารถที่หลากหลายกว่าการคลิกธรรมดา โดยสามารถบันทึกท่าทางการปัดหน้าจอหรือการซูมด้วยสองนิ้วได้ ทำให้เหมาะกับงานที่ซับซ้อนมากขึ้น\n*   **แอปอื่นๆ ที่น่าสนใจ:** ยังมีแอปพลิเคชันอื่นๆ เช่น **QuickTouch** ที่เน้นความรวดเร็วและแม่นยำ, **MacroDroid** ที่สามารถสร้างมาโครเพื่อทำงานอัตโนมัติได้หลากหลาย และ **AnkuLua** ที่ทำงานโดยการรันสคริปต์เพื่อทำงานอัตโนมัติ\n\n**ไอโอเอส (iOS)**\n\nผู้ใช้ไอโฟนและไอแพดก็มีตัวเลือกในการใช้งานฟีเจอร์การกดอัตโนมัติเช่นกัน ทั้งจากแอปพลิเคชันภายนอกและฟีเจอร์ที่มีอยู่แล้วในระบบ\n\n*   **แอปพลิเคชัน Auto Clicker:** มีแอปพลิเคชันชื่อ \"Auto Clicker\" หลายตัวบน App Store ที่มีความสามารถในการคลิกหรือปัดหน้าจอซ้ำๆ ได้ บางแอปอาจมีค่าใช้จ่ายหรือโมเดลการสมัครสมาชิก\n*   **ฟีเจอร์ Switch Control:** iOS มีฟีเจอร์ \"Switch Control\" อยู่ในส่วนของการช่วยการเข้าถึง (Accessibility) ซึ่งผู้ใช้สามารถตั้งค่า \"Recipe\" เพื่อสร้างท่าทางการกดหรือปัดหน้าจอที่กำหนดเองได้ และสามารถเรียกใช้งานได้ง่ายๆ ผ่านการกดปุ่มด้านข้างสามครั้ง\n\n#### สำหรับคอมพิวเตอร์ (Windows และ macOS)\n\n**วินโดวส์ (Windows)**\n\nผู้ใช้งานวินโดวส์มีโปรแกรมฟรีแวร์ให้เลือกใช้มากมายสำหรับการคลิกเมาส์อัตโนมัติ\n\n*   **AutoClicker:** เป็นโปรแกรมขนาดเล็กและใช้งานง่าย สามารถกำหนดตำแหน่งการคลิกจากพิกัด X, Y และตั้งค่าปุ่มลัด (Hotkey) เพื่อเริ่มหรือหยุดการทำงานได้\n*   **OP Auto Clicker:** เป็นโปรแกรมที่ได้รับความนิยมอีกตัวหนึ่ง มีจุดเด่นคือไม่ต้องติดตั้ง สามารถพกพาไปใช้กับคอมพิวเตอร์เครื่องอื่นได้ง่าย และสามารถตั้งค่าช่วงเวลาการคลิกได้อย่างละเอียด\n*   **โปรแกรมอื่นๆ:** นอกจากนี้ยังมีโปรแกรมอย่าง **myMouse** และ **Auto Mouse Clicker** ที่มีความสามารถในการกำหนดค่าการคลิกที่หลากหลายและตั้งค่าการวนซ้ำได้\n\n**แมคโอเอส (macOS)**\n\nสำหรับผู้ใช้ Mac ก็มีโปรแกรมที่ช่วยในการคลิกอัตโนมัติเช่นกัน\n\n*   **Mac Auto Clicker:** เป็นโปรแกรมฟรีที่ออกแบบมาสำหรับ macOS โดยเฉพาะ เหมาะสำหรับผู้ที่ต้องการเครื่องมือพื้นฐานในการคลิกอัตโนมัติ\n*   **GS Auto Clicker:** เป็นอีกหนึ่งโปรแกรมฟรีที่ให้ผู้ใช้ตั้งค่าการคลิกอัตโนมัติได้ทั้งแบบคลิกเดียวและหลายคลิก พร้อมกำหนดช่วงเวลาและความถี่ในการคลิกได้\n*   **Click Bot - Auto Mouse Clicker:** สามารถดาวน์โหลดได้จาก Mac App Store มีทั้งเวอร์ชันฟรีและเสียเงิน โดยมีฟีเจอร์เพิ่มเติมอย่างการแสดงผลการกดคีย์บอร์ดบนหน้าจอ\n\n#### สำหรับเว็บเบราว์เซอร์ (Chrome และ Firefox)\n\nนอกเหนือจากโปรแกรมที่ติดตั้งบนระบบปฏิบัติการแล้ว ยังมีส่วนขยาย (Extension) สำหรับเว็บเบราว์เซอร์ที่ช่วยในการคลิกอัตโนมัติภายในหน้าเว็บได้อีกด้วย\n\n*   **ส่วนขยายสำหรับ Google Chrome:** มีส่วนขยายชื่อ \"Auto Clicker\" หลายตัวให้เลือกใช้ใน Chrome Web Store ซึ่งสามารถตั้งค่าความเร็วในการคลิกและกำหนดเป้าหมายการคลิกบนองค์ประกอบต่างๆ ในหน้าเว็บได้\n*   **ส่วนขยายสำหรับ Firefox:** ผู้ใช้ Firefox ก็สามารถค้นหาส่วนขยายที่มีฟังก์ชันคล้ายกันได้ เช่น \"AutoClicker: Automatic Tap\" ที่ออกแบบมาเพื่อทำงานอัตโนมัติกับงานที่ต้องคลิกซ้ำๆ หรือ \"autoClick\" ที่เหมาะสำหรับเกมที่ต้องคลิกบ่อยๆ\n\nโดยสรุปแล้ว ไม่ว่าคุณจะใช้อุปกรณ์หรือแพลตฟอร์มใด ก็มีเครื่องมือและแอปพลิเคชันที่ช่วยในการ \"กดตกลง\" หรือคลิกโดยอัตโนมัติให้เลือกใช้งานได้ตามความต้องการ ซึ่งจะช่วยประหยัดเวลาและลดความเหนื่อยล้าจากงานที่ต้องทำซ้ำๆ ได้เป็นอย่างดี",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 1798,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE40AoudBs-nrtioAST_4IXOgP950RP2ue37q-AT_ANiSkL1NTNHOHdWQOgTbB_PotrSwr6rwl5jEslQF3dNlq_sBIyQidry6PhlRCtS0neztI9-3D4sV11g5v0BdG289flQySSh4T2ymBfSJx4UUZiKj-FM3beRcjiv7tcZp6id9o99Ak4IEy7gVJ-IiYgbQF08D9xEBK24hJnA_McFMg%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 2185,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE40AoudBs-nrtioAST_4IXOgP950RP2ue37q-AT_ANiSkL1NTNHOHdWQOgTbB_PotrSwr6rwl5jEslQF3dNlq_sBIyQidry6PhlRCtS0neztI9-3D4sV11g5v0BdG289flQySSh4T2ymBfSJx4UUZiKj-FM3beRcjiv7tcZp6id9o99Ak4IEy7gVJ-IiYgbQF08D9xEBK24hJnA_McFMg%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 2295,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHkazL3tZUANGBTGUFTzsSKa5xpSwfPFH0eyLaPh8CxkmpXZWLYwC125zTJ4dGOsu6LCweb14mWMZkDkH6_LmMAdZ_oMQkhwt_7Sy2Z4Gf0BnMd_fs3jXhWr8mXWWKycysjEs_pts25IATEGKltAOnC3WXLOV63EijWEeU1NODo1Tg_4xuMvcl6miqxNoKgB0h9YITLYg%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 2731,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGBmG3NESB_zYyM1y3XHoA0g8bXuYriBAy7tzVWNCyKVr1VnU_vAwJh1mZwwRA4yjEOtnLfx2BTZGnpv_IP_25LcwEAR6H6d2RPotcy_3kjEatyCLRKVitB6NcoSuejfRo6OrrGvsONfc3yTlpi1--p_X3kbiK9Vf1F6nyrZX8qLzKG1aJtXlUvcLLS6D9WUabAAA4F",
+          "footnoteNumber": 3
+        }, {
+          "index": 3286,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGukoQpgx6WJz-glyBmeP6ohvu-AChs4nQLYLcFilaKheJZLkIEwAeKquR2AObD2DJkMwJru641CqAN8jwF6x5QZRFgw_EvQIEX8Bg7zGkd9qTEczaBB2ft6PLobkCUeKYzt_wO62Sie9vyNLNrPHaPWBl3DnQ1VZjmbo8VjEwNYQPl",
+          "footnoteNumber": 4
+        }, {
+          "index": 3987,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEWD_17uwbBkQk9vtCJ_qoNT_qWEN4kP-kXC96ECgyRHKLeFjIe1Ed-Qfxy3Bp3b8qYx5Ycuv2KQ9bunx3xAfx3uNXg1zRTsa2WoW-smw4Ne6-zeQcBQPQ5mxeLOKJq1byv0hg9NN2HnwYC-BRflq566LL4lNLSQU9j9GUX3KRk7PHhKEvSpxOyLU5H",
+          "footnoteNumber": 5
+        }, {
+          "index": 4120,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHtti8i-Y-drM_LE0e67cirkq5x8AXW_HefYvX6MGci3xdPt2RHfpzXGIV5jYlgdLdK72q8y1QpDzyD9cwl7rD3dHn7JToPmA08E-Qi2vpopoTY7e8Zug0Jc-XxZHRnSb9ZMpCV3J7RBUp-gWEV1DYaDYB1",
+          "footnoteNumber": 6
+        }, {
+          "index": 4719,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE40AoudBs-nrtioAST_4IXOgP950RP2ue37q-AT_ANiSkL1NTNHOHdWQOgTbB_PotrSwr6rwl5jEslQF3dNlq_sBIyQidry6PhlRCtS0neztI9-3D4sV11g5v0BdG289flQySSh4T2ymBfSJx4UUZiKj-FM3beRcjiv7tcZp6id9o99Ak4IEy7gVJ-IiYgbQF08D9xEBK24hJnA_McFMg%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 5449,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEuhfEaSCtTXU1lehT_jTc4X0aT_Wprddo_yQr2GPgqo1AW7YeJn9whgw4T0EsxhGFDijKiakGbVeVGlx3rWtD21ldic30yTacNL2GxM9g1FeK7ckVDmaUgKAfmqqH_q05oiqrwj75GWhWzb3IzSAAJ_A7AjPYjng%3D%3D",
+          "footnoteNumber": 7
+        }, {
+          "index": 5952,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHLuH2eI90nkKaOaL7R0feh67N-yV0B_U7HFFEEzesU54-qWBIDIY09LIeKcd1M-LuZZYO6r9Ulwwf0exyOHVY2VeBXZSBFr6rWeo2brIpn9CKX_M1awi5szxHz3oZqyHXw4HTEwA%3D%3D",
+          "footnoteNumber": 8
+        }, {
+          "index": 6324,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHxi-4YIyPU5-91Tscsc4_orfjVhSTva5wz8imTAI4otJO84-_IypStosiY8QBbI2uXJyiLq4faYpkiEyg9ONpLD8ZolXjGo5flpRwzhauHCXew9nOMCMote4dod-pNLu0sHhEochquNme-uMZLXCptqsuB0q13cU_QI9ioCIpzKC9pNsSx",
+          "footnoteNumber": 9
+        }, {
+          "index": 6864,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFDZlJrAJPmtON27xG3zWV1vyXAqC4IvDTHbjHDPl0seYOxeLrS4riEeuC4Yu1cO6hD8Qce4EdmlgBCvpEByUDJSAkIUS8RUF_bb5Tcre6rBCTuAfMOfumjJ24wkpW_0I6xImEAWwpdg5xG41ek5Fr5hRs0",
+          "footnoteNumber": 10
+        }, {
+          "index": 7272,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEIP1qQMQVCAvmEBSe_8MrKSrOnO4yhCjJGakZTEyhFw05HURgwNZwSXx5xOba-FGIr3gQeCKVPS0jeL7858Y3TAp4H6wP9QHPtLbjpF9dDwJ_O_Xki8HYdNrSF0aaRI-di1CNDcQ%3D%3D",
+          "footnoteNumber": 11
+        }, {
+          "index": 7647,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGmGylh8-5KARDuP4mo2eXgl8yC4eyxO1-p5mSPVNPFebQ2FILcRA9Lt8jQob284blYZK6HucKQntfvEOUfRFEK8NOJKQO8i2hXcjTvGN6JJ_jRrIEOyMMhOm-jGYaSPpr-axXHPKFg4I6kpCL12xqX3TTRsf6wyGROoy0nmEewULv1I1yM1hY%3D",
+          "footnoteNumber": 12
+        }, {
+          "index": 8616,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHtti8i-Y-drM_LE0e67cirkq5x8AXW_HefYvX6MGci3xdPt2RHfpzXGIV5jYlgdLdK72q8y1QpDzyD9cwl7rD3dHn7JToPmA08E-Qi2vpopoTY7e8Zug0Jc-XxZHRnSb9ZMpCV3J7RBUp-gWEV1DYaDYB1",
+          "footnoteNumber": 6
+        }, {
+          "index": 8616,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG-IB8ayaCT8hVLq9zX9yM3I-rWzq6-7DXFoK5_TFyJffKZcK1rlaxolQtQ7RuZNgk__w0QHvRs-DkXjtXZphNrZXC9BTfESwftLjCwcZ7g_h1DboNpmWplOajBq4lgZEf4RmM_5lGTUvhC-asRwu1WsApi",
+          "footnoteNumber": 13
+        }, {
+          "index": 8616,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGlNoK9oPK0udxFX3cPhbiuat0e4eJSt4VMgBJirb2x-AfgQkDHV6F4dZ5lUuzYVf-W00ZNkzF88OJTq56a-sgTJxlhB_7P9Vgv7uRk066hCf0o4ImC32Y4mcSsuGBszfNjwD_848aR1dn3cJDrhryfVRERAtdqoB4-ZfQVn_maHtRqQBSwMLB-s-JlmUmUfF9D42SGH2Q%3D",
+          "footnoteNumber": 14
+        }, {
+          "index": 9035,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGlkGN98z068kOP98O5edIeQC7gPpp7XKCac7_20X2Co8slgfOi4U-2YclzwyT1169ZGOvSgf3GDr6RGLIV13UlTCYGllwg0BxLU_8PpGtDx_yKh1fHLd2J_xQnU4BOqwBwOVYqSXVA9UFcg85IyCdyExXjtChAyReUl4cNChl1JK1AWQ%3D%3D",
+          "footnoteNumber": 15
+        }, {
+          "index": 9160,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEUfLE4uSPFMxbsj_YIj63wPsm7utRLieyRtevj4m4r9BTzw2oD2u9CgM5km6T48d5sfYMst08JpHxsEIMx-oe4pyHvR_bwmH2WdJI8m7eWUE3ueUc8YlLfMpftX_pxOyEyLAK35KMwu6StDMC89Iff2HHmDg%3D%3D",
+          "footnoteNumber": 16
+        }],
+        "webSearchQueries": ["แอพกดหน้าจอซ้ำๆ", "โปรแกรมคลิกเมาส์อัตโนมัติ Windows", "โปรแกรมคลิกเมาส์อัตโนมัติ macOS", "ส่วนขยาย auto clicker Chrome", "auto clicker Firefox extension"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE40AoudBs-nrtioAST_4IXOgP950RP2ue37q-AT_ANiSkL1NTNHOHdWQOgTbB_PotrSwr6rwl5jEslQF3dNlq_sBIyQidry6PhlRCtS0neztI9-3D4sV11g5v0BdG289flQySSh4T2ymBfSJx4UUZiKj-FM3beRcjiv7tcZp6id9o99Ak4IEy7gVJ-IiYgbQF08D9xEBK24hJnA_McFMg%3D",
+          "title": "google.com"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHkazL3tZUANGBTGUFTzsSKa5xpSwfPFH0eyLaPh8CxkmpXZWLYwC125zTJ4dGOsu6LCweb14mWMZkDkH6_LmMAdZ_oMQkhwt_7Sy2Z4Gf0BnMd_fs3jXhWr8mXWWKycysjEs_pts25IATEGKltAOnC3WXLOV63EijWEeU1NODo1Tg_4xuMvcl6miqxNoKgB0h9YITLYg%3D%3D",
+          "title": "bignox.com"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGBmG3NESB_zYyM1y3XHoA0g8bXuYriBAy7tzVWNCyKVr1VnU_vAwJh1mZwwRA4yjEOtnLfx2BTZGnpv_IP_25LcwEAR6H6d2RPotcy_3kjEatyCLRKVitB6NcoSuejfRo6OrrGvsONfc3yTlpi1--p_X3kbiK9Vf1F6nyrZX8qLzKG1aJtXlUvcLLS6D9WUabAAA4F",
+          "title": "google.com"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGukoQpgx6WJz-glyBmeP6ohvu-AChs4nQLYLcFilaKheJZLkIEwAeKquR2AObD2DJkMwJru641CqAN8jwF6x5QZRFgw_EvQIEX8Bg7zGkd9qTEczaBB2ft6PLobkCUeKYzt_wO62Sie9vyNLNrPHaPWBl3DnQ1VZjmbo8VjEwNYQPl",
+          "title": "apple.com"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEWD_17uwbBkQk9vtCJ_qoNT_qWEN4kP-kXC96ECgyRHKLeFjIe1Ed-Qfxy3Bp3b8qYx5Ycuv2KQ9bunx3xAfx3uNXg1zRT
